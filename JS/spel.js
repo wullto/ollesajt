@@ -30,7 +30,7 @@ var startgame = function() {
     playerAlive = true;
   }
 
-  console.log("Draken valde " + dragonAction);
+  console.log("Olle valde " + dragonAction);
 
     if (dragonAlive && playerAlive) {
 
