@@ -86,7 +86,7 @@ var startgame = function() {
 
       } else {
 
-        document.getElementById('dragongame').innerHTML = "Draken dödade dig. Nu var det slut på det roliga.";
+        document.getElementById('dragongame').innerHTML = "Draken dödade dig. Nu var det slut på det roliga!";
 
       }
 
