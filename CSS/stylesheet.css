@@ -1,0 +1,308 @@
+@font-face	{
+	font-family: 'pt_sans';
+	src: url('../Fonts/PT_Sans/PT_Sans-Web-Regular.ttf');
+}
+
+body	{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	color: black;
+
+}
+
+a:link 	{
+	color: black;
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+
+a:visited	{
+			color: black;
+}
+
+h1	{	
+	z-index: 5;
+	background-color: white;
+	letter-spacing: 0.2em;
+	font-family: 'pt_sans';
+	margin: 10px auto 30px auto;
+	padding-bottom: 15px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 2em;
+	position: fixed;
+	}
+
+h2 {
+	background-color: white;
+	font-family: 'pt_sans';
+	text-align: center;
+}
+
+input {
+	padding: 1% 1% 1% 1%;
+	font-size: 1.2em;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+	background-color: #dcdcdc;
+	text-align: left
+}
+
+textarea	{
+	padding: 1% 1% 1% 1%;
+	font-size: 1.2em;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+	background-color: #dcdcdc;
+	text-align: left;
+}
+
+
+button	{
+	width: 15%;
+	padding: 5px 5px 5px 5px;
+	margin: 1%;
+	background-color: #b9e4e3;
+	font-family: 'pt_sans';
+	text-transform: uppercase;
+}
+
+fieldset	{
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	text-align: left;
+	font-family: 'pt_sans';
+}
+
+fieldset:nth-child(1)	{
+	margin-top: 7%;
+}
+
+form + form	{
+	margin-bottom: 50px;
+}
+
+legend	{
+	background-color: #efefef;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-family: 'pt_sans';
+}
+
+blockquote	{
+	float: right;
+	margin: 2% 5% 2% 2%;
+	font-family: 'pt_sans';
+	font-size: 2em;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	font-style: italic;
+}
+
+#header	{
+	z-index: 4;
+	background-color: white;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'pt_sans';
+	padding: 10px;
+	margin: 55px auto 10px auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	position: fixed;
+}
+
+.hknapp	{
+	overflow: hidden;
+
+}
+
+.hknapp + .hknapp	{
+	margin-left: 5%;
+}
+
+.line1	{
+	z-index: 10;
+	background-color: black;
+	height: 2px;
+	width: 60%;
+	margin: 1% auto;
+}
+
+
+#footer	{
+	background-color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'pt_sans';
+	padding: 10px;
+	margin: 10px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 0.8em;
+}
+
+.footerelement	{
+
+
+}
+
+.footerelement + .footerelement	{
+	margin-left: 15%;
+}
+
+.textbox:first-child {
+	font-size: 1.2em;
+	border: 1px solid black;
+}
+
+.textbox	{
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-family: 'pt_sans';
+	line-height: 2em;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.textbox p 	{
+	margin-left: auto;
+	margin-right: auto;
+	align: left;
+}
+
+
+.textboxcontainer	{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 7%;
+	margin-bottom: 2%;
+	font-family: 'pt_sans';
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#smalltextboxcontainer	{
+	margin-bottom: 4%;
+	margin-top: 7%;
+	border: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+
+}
+
+.smalltextbox	{
+	text-align: left;
+	line-height: 1.8em;
+	font-family: 'pt_sans';
+	padding-right: 1%;
+	margin-left: 2%;
+	width: 200px;
+	margin-top: 0px;
+}
+
+.smalltextbox + .smalltextbox	{
+
+}
+
+.textpic	{
+	max-width: 100px;
+	max-height: 100px;
+	bottom: 50px;
+	display: inline;
+	float: left;
+	margin: 1% 2% 1% 2%
+}
+
+#bildcontainer	{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	max-height: 300px;
+}
+
+.bildbox	{
+	display: inline-block;
+	width: 30%;
+	object-fit: cover;
+	margin-bottom: 2%;
+
+}
+
+video	{
+	display: block;
+	height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+.video	{
+	text-align: center;
+}
+
+#holymoly	{
+	margin-top: 7%;
+	height: auto;
+	width: 100%;
+	min-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 1%;
+	padding: 0px 0px 0px 0px;
+	left: 0;
+	right: 0;
+}
+
+#bakgrund 	{
+	width: 100%;
+	height: 100%;
+}
+
+.bgbild	{
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.textbox button {
+	margin-left: auto;
+	margin-right: auto;
+	align: left;
+	background-color: white;
+	width: 100%;
+}
+
+
